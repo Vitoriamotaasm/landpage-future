@@ -1,0 +1,51 @@
+.portfolio {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    flex: 0 0 33.33%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .carousel-controls {
+    margin-top: 10px;
+  }
+  
+  .carousel-controls button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    border-radius: 50%;
+  }
